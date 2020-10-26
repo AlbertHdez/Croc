@@ -10,6 +10,6 @@
 	<link rel="stylesheet" href="src/css/main.css">
 </head>
 <body id="home">
-	<?php include_once ('php/components/nav.php');?>
+	<?php include_once ('php/components/navbar.php');?>
 </body>
 </html>

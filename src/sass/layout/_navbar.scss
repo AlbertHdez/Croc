@@ -1,0 +1,27 @@
+.navbar{
+	display: flex;
+	height: 67px;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0px 28px;
+	background-color: $color-primary;
+
+	&__logo{
+		height: 50px;
+	}
+
+	&__icon, &__icon--hidden{
+		font-size: 40px;
+		color: $color-white;
+	}
+
+	&__icon--hidden{
+		display: none;
+	}
+
+	&__menu, &__search{
+		background-color: transparent;
+		border: none;
+		cursor: pointer;
+	}
+}
