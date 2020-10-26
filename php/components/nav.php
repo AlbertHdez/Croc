@@ -17,11 +17,11 @@
 		<img src="src/img/Logo.svg" alt="" class="nav__logo">
 	</a>
 	<div class="nav__links--left">
-		<a href="" class="nav__link"></a>
-		<a href="" class="nav__link"></a>
+		<a href="" class="nav__link">Que hacemos</a>
+		<a href="" class="nav__link">Programas sociales</a>
 	</div>
 	<div class="nav__links--right">
-		<a href="" class="nav__link"></a>
-		<a href="" class="nav__link"></a>
+		<a href="" class="nav__link">Socialismo XXI</a>
+		<a href="" class="nav__link">Resultados</a>
 	</div>
 </nav>

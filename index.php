@@ -11,6 +11,5 @@
 </head>
 <body id="home">
 	<?php include_once ('php/components/nav.php');?>
-	<span>Papalas</span>
 </body>
 </html>

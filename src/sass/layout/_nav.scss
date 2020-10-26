@@ -1,0 +1,95 @@
+.nav{
+	width: 100%;
+	padding: 20px 0px;
+	display: grid;
+	grid-template-columns: 380px 340px 380px;
+	grid-template-rows: 57px 66px;
+	grid-template-areas: 
+		"Social Brand Search"
+		"Links-L Brand Links-R";
+	column-gap: 20px;
+	justify-content: center;
+	background-color: $color-primary;
+
+	&__social{
+		grid-area: Social;
+		padding-top: 10px;
+		display: flex;
+		
+		& > *{
+			margin-right: 40px;
+		}
+
+		& > *:nth-last-child(1){
+			margin-right: 0px;
+		}
+	}
+
+	&__search{
+		grid-area: Search;
+		padding-top: 10px;
+		display: flex;
+		justify-content: flex-end;
+	}
+
+	&__brand{
+		grid-area: Brand;
+		display: flex;
+		justify-content: center;
+	}
+
+	&__logo{
+		height: 120px;
+	}
+
+	&__links{
+
+		&--left, &--right{
+			display: flex;
+			border-top: 1px solid $color-primary-light-div;
+		}
+
+		&--left{
+			justify-content: flex-start;
+
+			& > *:nth-child(1){
+				padding: 11px 17px 11px 0px;
+			}
+
+			& > *:nth-last-child(1){
+				border-right: none;
+			}
+		}
+
+		&--right{
+			justify-content: flex-end;
+
+			& > *:nth-last-child(1){
+				padding: 11px 0px 11px 17px;
+				border-right: none;
+			}
+		}
+	}
+
+	&__link{
+		height: 50px;
+		display: block;
+		padding: 11px 17px;
+		font-size: $font-s-text;
+		font-family: $font-secondary;
+		font-weight: 200;
+		text-transform: uppercase;
+		text-decoration: none;
+		color: $color-white;
+		border-right: 1px solid $color-primary-light-div;
+	}
+
+	&__icon-link{
+		text-decoration: none;
+	}
+
+	&__icon{
+		font-size: 20px;
+		color: $color-white; 
+	}
+}
