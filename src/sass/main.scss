@@ -8,6 +8,10 @@
 @import 'base/reset',
 		'base/typography';
 
+//Components
+@import 'components/search-bar',
+		'components/menu';
+
 //Layout
 @import 'layout/nav',
 		'layout/navbar';

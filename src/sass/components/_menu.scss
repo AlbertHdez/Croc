@@ -1,0 +1,46 @@
+.menu{
+	padding: 18px 30px;
+	display: flex;
+	flex-direction: column;
+	background-color: $color-gray;
+
+	& > *{
+		color: $color-white;
+		text-decoration: none;
+	}
+
+	&__big-link{
+		font-size: $font-s-title-5;
+		font-family: $font-secondary;
+		font-weight: 200;
+		text-transform: uppercase;
+		margin-bottom: 19px;
+		transition: color 0.3s ease-out;
+
+		&:hover{
+			color: $color-accent;
+			transition: color 0.3s ease-out;
+		}
+	}
+
+	&__divisor{
+		margin-bottom: 17px;
+	}
+
+	&__link{
+		font-family: $font-primary;
+		font-size: $font-s-label;
+		font-weight: 500;
+		margin-bottom: 17px;
+		transition: color 0.3s ease-out;
+
+		&:nth-last-child(1){
+			margin-bottom: 0px;
+		}
+
+		&:hover{
+			color: $color-accent;
+			transition: color 0.3s ease-out;
+		}
+	}
+}

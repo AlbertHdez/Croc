@@ -1,0 +1,27 @@
+.search-bar{
+	padding: 16px 14px;
+	display: grid;
+	grid-template-columns: 1fr 58px;
+	grid-template-rows: 42px;
+	background-color: $color-gray;
+
+	&__input{
+		height: 100%;
+		padding: 0px 14px;
+		font-family: $font-secondary;
+		font-size: $font-s-text;
+		color: $color-primary;
+	}
+
+	&__button{
+		height: 100%;
+		background-color: $color-primary;
+		border: none;
+		cursor: pointer;
+	}
+
+	&__icon{
+		font-size: 28px;
+		color: $color-white;
+	}
+}
