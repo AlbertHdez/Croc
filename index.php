@@ -10,6 +10,7 @@
 	<link rel="stylesheet" href="src/css/main.css">
 </head>
 <body id="home">
-	<?php include_once ('php/components/menu.php');?>
+	<?php include_once ('php/components/button.php');?>
+	
 </body>
 </html>
