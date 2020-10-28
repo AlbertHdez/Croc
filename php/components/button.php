@@ -5,4 +5,4 @@
 		<span class="button__icon">
 			<img src="src/img/arrowrightalt_outline.svg" alt="" class="button__arrow">
 		</span>
-	</a>
+	</a>		

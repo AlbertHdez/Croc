@@ -3,12 +3,18 @@ $color-primary-light: #E0383C;
 $color-primary-light-div: rgba(224, 56, 60, 0.5);
 $color-accent: #F6913B;
 $color-accent-dark: #EC6D00;
+$color-accent-light: #FAEC1A;
 $color-secondary: #831D47;
 $color-tertiary: #5E1A1A;
 $color-quaternary: #932828;
 $color-white: #fff;
 $color-black: #111112;
 $color-gray: #373A3A;
+
+
+$shadow-z1: 5px 5px 20px rgba(0,0,0,0.6);
+
+$background-black: rgba(0,0,0,0.65);
 
 
 $font-s-header: 72px;
@@ -24,10 +30,8 @@ $font-s-detail: 13.5px;
 $font-s-cap: 12px;
 
 
-$font-primary: "Monserrat", sans-serif;
+$font-primary: "Montserrat", sans-serif;
 $font-secondary: "Oswald", sans-serif;
 $font-tertiary: "Lato", sans-serif;
 $font-quaternary: "Aleo", sans-serif;
 
-
-$shadow-z1: 5px 5px 20px rgba(0,0,0,0.6);
