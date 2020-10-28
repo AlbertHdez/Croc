@@ -8,7 +8,7 @@
 			Titular de la noticia principal
 		</h1>
 		<p class="new-header-card__text">
-			Parralox is an Australian synthpop band formed by John von Ahlen in 2008. Originally featuring lead vocalist Rowena "Roxy" Martin and producer, songwriter John von Ahlen of dance act Nova; the band has undergone a number of line-up changes, most notably the replacement of lead vocalist Roxy with Amii Jackson and the addition of The Human League's Ian Burden on bass guitar.
+			Parralox is an Australian synthpop band formed by John von Ahlen in 2008. Originally featuring lead vocalist Rowena "Roxy" Martin and producer, songwriter John von Ahlen of dance act Nova; the band has undergone.
 		</p>
 		<a href="" class="button button--rounded">
 			<span class="button__text">

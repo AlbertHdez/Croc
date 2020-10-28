@@ -51,6 +51,7 @@
 		font-size: $font-s-header;
 		font-family: $font-tertiary;
 		font-weight: 300;
+		transform: scale(0.98, 1);
 		margin-bottom: 40px;
 	}
 
@@ -60,6 +61,7 @@
 		font-family: $font-primary;
 		font-size: $font-s-text;
 		font-weight: 500;
+		line-height: 28px;
 		margin-bottom: 44px;
 	}
 }
