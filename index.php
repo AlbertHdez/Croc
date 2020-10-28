@@ -10,7 +10,7 @@
 	<link rel="stylesheet" href="src/css/main.css">
 </head>
 <body id="home">
-	<?php include_once ('php/layouts/news-grid.php');?>
+	<?php include_once ('php/layouts/email-form.php');?>
 	
 </body>
 </html>

@@ -1,0 +1,45 @@
+.email-form{
+	display: grid;
+	grid-template-columns: 180px 106px auto;
+	column-gap: 12px; 
+	grid-template-areas: "Email Zip Button";
+
+	&--small{
+		width: 100%;
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		grid-template-rows: 42px 42px;
+		grid-template-areas:
+			"Email Email" "Zip Button";
+		column-gap: 12px;
+		row-gap: 12px;
+
+		& > input{
+			font-size: $font-s-label;
+			border: none;
+			padding: 0 10px;
+			font-family: $font-primary;
+		}
+
+
+	}
+
+	& > input{
+		font-size: $font-s-label;
+		border: none;
+		padding: 0 10px;
+		font-family: $font-primary;
+	}
+
+	&__email{
+		grid-area: Email;
+	}
+
+	&__zip{
+		grid-area: Zip;
+	}
+
+	&__button{
+		grid-area: Button;
+	}
+}
