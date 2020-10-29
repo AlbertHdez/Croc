@@ -1,5 +1,7 @@
 .button{
+	display: block;
 	width: fit-content;
+	height: fit-content;
 	padding: 12px 27px;
 	@extend %button;
 
@@ -19,6 +21,8 @@
 
 	&__text{
 		font-size: $font-s-title-5;
+		font-family: $font-secondary;
+		color: $color-white;
 		text-transform: uppercase;
 		font-weight: 500;
 	}	
