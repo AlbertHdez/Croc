@@ -15,9 +15,11 @@ $color-gray: #373A3A;
 $shadow-z1: 5px 5px 20px rgba(0,0,0,0.6);
 
 $background-black: rgba(0,0,0,0.65);
+$background-primary: rgba(70, 13, 13, 0.6);
 $background-secondary: rgba(121,29,71,0.8);
 $background-tertiary: rgba(94,26,26,0.9);
 
+$gradient-black: linear-gradient(to bottom, rgba(0,0,0,0.9), rgba(0,0,0,0.3) 25%, rgba(0,0,0,0.4) 50%, rgba(0,0,0,0.5) 75%, rgba(0,0,0,0.6));
 
 $font-s-header: 72px;
 $font-s-header-2: 61px;
