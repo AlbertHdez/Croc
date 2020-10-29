@@ -1,0 +1,22 @@
+.simple-new{
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+
+	&__title{
+		font-size: $font-s-title-3;
+		font-weight: 300;
+		color: $color-primary-light;
+		text-decoration: none;
+		margin-bottom: 20px;
+	}
+
+	&__date{
+		font-size: $font-s-label;
+		margin-bottom: 10px;
+	}
+
+	&__text{
+		font-size: $font-s-text;
+	}
+}

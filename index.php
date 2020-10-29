@@ -10,7 +10,7 @@
 	<link rel="stylesheet" href="src/css/main.css">
 </head>
 <body id="home">
-	<?php include_once ('php/layouts/values.php');?>
+	<?php include_once ('php/components/simple-new.php');?>
 	
 </body>
 </html>
